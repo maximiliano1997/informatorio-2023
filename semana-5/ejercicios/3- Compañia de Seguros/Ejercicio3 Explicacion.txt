@@ -1,0 +1,18 @@
+Entidades:
+
+Cliente: Representa a los clientes de la compañía de seguros.
+
+Atributos: ClienteID (identificador único), Nombre, Apellido, Dirección, Teléfono, Correo electrónico.
+Póliza: Representa las diferentes pólizas ofrecidas por la compañía de seguros.
+
+Atributos: PólizaID (identificador único), Cobertura, Prima.
+Relaciones:
+
+Tiene: Un cliente puede tener múltiples pólizas.
+Cardinalidad: Uno a muchos (1:N). Un cliente puede tener cero o más pólizas, pero una póliza pertenece a un único cliente.
+
+
+Explicación de la cardinalidad:
+
+Un cliente puede tener ninguna, una o varias pólizas de seguros (0,N).
+Cada póliza de seguros pertenece a un único cliente (1,1).
