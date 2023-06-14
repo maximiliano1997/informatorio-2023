@@ -1,0 +1,30 @@
+
+-- Punto 1
+UPDATE `empleado`
+SET CIUDAD = 'Malaga'
+WHERE `NOMBRE_EMPLEADO` = 'Luis Torres';
+
+SELECT * FROM empleado;
+
+-- Punto 2 (NO EXISTEN EMPLEADOS DE ORACLE)
+UPDATE `trabaja`
+SET SUELDO = SUELDO * 1.10
+WHERE 'NOMBRE_EMPRESA' = 'Oracle';
+
+SELECT * FROM trabaja WHERE 'NOMBRE_EMPRESA' = 'Oracle';
+
+-- Punto 3
+UPDATE trabaja
+SET SUELDO = CASE
+  WHEN SUELDO <= 1900 THEN SUELDO * 1.03
+  ELSE SUELDO * 1.10
+ END
+ WHERE NOMBRE_EMPLEADO IN (
+  SELECT NOMBRE_SUPERVISOR
+  FROM supervisa 
+  WHERE NOMBRE_EMPRESA = 'Google'
+);
+
+SELECT * FROM trabaja;
+
+
