@@ -1,0 +1,10 @@
+Para que empiecen a ver Grid y FlexBox:
+1- https://cssgridgarden.com/#es
+2- https://flexboxfroggy.com/#es 
+
+
+Estas son distintas paginas que pueden consultar para los estilos:
+3- https://tailwindui.com/
+4- https://startbootstrap.com/
+5- https://codepen.io/
+6-
