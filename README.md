@@ -4,7 +4,7 @@
 
 #### A brief description of Etapa 2:
 
-#### Informatorio-2023 it's a public-private Bootcamp of 3 months long. Sponsors of the Informatorio are the Province Government with help of institutions like: Globant, POLO IT, UNCAUS, UTN, etc...
+#### Informatorio-2023 it's a public-private Bootcamp of 11 months long. Sponsors of the Informatorio are the Province Government with help of institutions like: Globant, POLO IT, UNCAUS, UTN, etc...
 
 ### [Week-1: Introduction to Python](./Week-1)
 
