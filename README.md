@@ -1,4 +1,4 @@
-![Etapa 2](https://empleo.chaco.gob.ar/static/media/p-2.2bea1058.svg)
+ ![Etapa 2](https://empleo.chaco.gob.ar/static/media/p-2.2bea1058.svg)
 
 # Informatorio 2023 - Etapa 2 - Python/Django/MySQL
 
